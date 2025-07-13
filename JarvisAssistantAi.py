@@ -412,10 +412,10 @@ def sendWhatsappMessage():
     speak("To whom should I send the WhatsApp message?")
     name = takeCommand()
     contact_list = {
-        "hamza": "+923186014882",
-        "zain": "+923444593306",
-        "tahir bhai": "+923451452031",
-        "rehan": "+923124541690"
+        "hamza": "+92xxxxxxxxx",
+        "zain": "+92xxxxxxxxx",
+        "tahir ": "+92xxxxxxxxx",
+        "rehan": "+92xxxxxxxxx"
     }
     phone = contact_list.get(name.lower())
     if not phone:
